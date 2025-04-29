@@ -9,7 +9,7 @@ A simple login and registration system built using **PHP**, **MySQL**, and **Jav
 - **Password Visibility Toggle**: Show/hide password in forms.
 - **Responsive Design**: Optimized for all screen sizes.
 
-![LoginScreenSS](\img\logIn.png)
+![LoginScreenSS](login-screen/img/logIn.png)
 
 ### **Technologies**
 - **Frontend**: HTML, CSS, JavaScript
