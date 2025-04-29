@@ -18,4 +18,4 @@ A simple login and registration system built using **PHP**, **MySQL**, and **Jav
 ### **Setup**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SMutaf/login-page.git
+   git clone https://github.com/SMutaf/Login_Screen.git
