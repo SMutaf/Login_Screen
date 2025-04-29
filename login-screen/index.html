@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><!-- Integrates the Roboto font family -->
+    <link rel="stylesheet" href="style.css?v=7"> <!-- Integrates the css file -->
+
+    <title>Login-Screen</title>
+</head>
+<body>
+
+    <!-- Login Container middle of the screen -->
+    <div class="login-container" id="login-container">
+        <div class="profile-picture">
+            <img src="/login-screen/img/i3.webp" alt="Unknown User" class="user-img">
+        </div>
+        <div class="login-form-container" id="login-form-container">
+            <form action="/login-screen/php/login.php" class="login-form" id="login-form" method="post">
+                <div class="username-container">
+                    <label for="username">User Name:</label>
+                    <input type="text" name="username" id="username" required>
+                    <span class="info" id="text-info"></span>
+                </div>
+                <div class="password-container">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                    <div class="password-checkbox-container">
+                        <input type="checkbox" id="password-checkbox">
+                       <p class="password-checkbox-p">Show Password</p>
+                    </div>
+                    <span class="info" id="password-info"></span>
+                </div>
+                <button type="submit" id="submit">Login</button>    
+            </form>
+            <p class="auth-links">
+                Dont Have Account ? <a href="#" id="create-account">Create Account</a> 
+                <br>
+                Have Account ? <a href="#" id="signin-account">Sign In</a>
+            </p>
+        </div>  
+    </div>
+
+    <script src="script.js?v=6"></script> <!-- Integrates the js file -->
+</body>
+</html> 
