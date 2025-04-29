@@ -7,7 +7,6 @@ A simple login and registration system built using **PHP**, **MySQL**, and **Jav
 - **Password Hashing**: Secure password storage and validation.
 - **Client-Side Validation**: Check for spaces in usernames and passwords.
 - **Password Visibility Toggle**: Show/hide password in forms.
-- **Responsive Design**: Optimized for all screen sizes.
 
 ![LoginScreenSS](login-screen/img/logIn.png)
 
